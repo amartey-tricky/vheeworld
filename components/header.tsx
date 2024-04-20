@@ -1,27 +1,77 @@
+"use client";
+
 import Link from "next/link";
-import CldImage from "./ui/cldimage";
-import { dancing_script, cormorant } from "./ui/fonts";
+import { Logo } from "./ui/logo";
 import { MenuLinks } from "./ui/menulinks";
 import { Donate } from "./ui/donate";
+import { useState } from "react";
+import { Button } from "./ui/button";
+import { acme } from "./ui/fonts";
+import { Menu, X } from "lucide-react";
+
+const Links = [
+  {
+    name: "Home",
+    href: "/",
+  },
+  {
+    name: "About",
+    href: "/about",
+  },
+  {
+    name: "Ways To Give",
+    href: "/ways-to-give",
+  },
+  {
+    name: "Contact",
+    href: "contact",
+  },
+  {
+    name: "Programs",
+    href: "/programs",
+  },
+];
 
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <header className="rounded-md flex items-center justify-between px-8 py-2 fixed top-0 backdrop-blur-xl w-full md:px-16">
-      <Link href="/" className="flex items-center gap-2">
-        <CldImage
-          src="vhee_logo_rcc6wf"
-          alt="vhee world logo"
-          width={86}
-          height={86}
-          priority
-        />
-        <p className="font-semibold text-3xl p-2">
-          <span className={`${cormorant.className} text-[#a370f0] font-bold text-4xl`}>VHEE </span>
-          <span className={`${dancing_script.className} text-[#9400D3]`}>World</span>
-        </p>
-      </Link>
-      <MenuLinks />
-      <Donate />
+    <header className="rounded-md px-8 py-2 fixed top-0 backdrop-blur-xl w-full md:px-16">
+      <div className="w-full flex items-center justify-between">
+        <Logo />
+        <MenuLinks />
+        <Donate />
+        <Button onClick={handleMenu} variant="ghost">
+          <span className="sr-only">Open menu</span>
+          {menuOpen ? (
+            <X size={30} className="font-semibold ease duration-200" />
+          ) : (
+            <Menu size={30} className="font-semibold ease duration-200" />
+          )}
+        </Button>
+      </div>
+      <div
+        className={
+          menuOpen
+            ? "fixed h-screen w-[70%] text-slate-300 bg-[#491BA2] opacity-90 backdrop-blur-xl top-0 left-0 ease-in-out duration-200 md:w-[40%]"
+            : "fixed left-[-100%] ease duration-300"
+        }
+      >
+        <nav className="flex flex-col gap-9 text-xl items-center justify-between mt-[8rem] md:text-2xl md:font-semibold md:gap-12">
+          {Links.map((link) => {
+            return (
+              <Link key={link.name} href={link.href}>{link.name}</Link>
+            )
+          })}
+          <Link href="/donate">
+            <Button variant="default" className={`${acme.className} text-2xl font-medium rounded-lg p-6 bg-[#75A11B] hover:bg-[#7F4EE1]`}>Donate</Button>
+          </Link>
+        </nav>
+      </div>
     </header>
   );
 }

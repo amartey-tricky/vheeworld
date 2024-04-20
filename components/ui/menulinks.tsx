@@ -25,7 +25,7 @@ const Links = [
 
 export function MenuLinks() {
   return (
-    <nav className="hidden md:flex gap-8">
+    <nav className="hidden xl:flex gap-8">
       {Links.map((link) => {
         return (
           <Link key={link.name} href={link.href} className="flex font-medium text-xl hover:border-b-4 border-violet-600 duration-100">

@@ -1,16 +1,15 @@
-import { Button } from "./button";
 import Link from "next/link";
 import "@/app/globals.css";
 
 export function Donate() {
   return (
-    <Link href="/donate">
+    <Link href="/donate" className="hidden xl:flex px-2">
       <button className="button">
         Donate
         <div className="icon">
           <svg
-            height="24"
-            width="24"
+            height="30"
+            width="30"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
