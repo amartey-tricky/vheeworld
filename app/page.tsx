@@ -2,8 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-      <h1>Vhee&apos;s World</h1>
+    <main className="flex min-h-screen flex-col items-center justify-center md:p-8">
     </main>
   );
 }
