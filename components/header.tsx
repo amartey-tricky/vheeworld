@@ -68,7 +68,7 @@ export default function Header() {
             )
           })}
           <Link href="/donate">
-            <Button variant="default" className={`${acme.className} text-2xl font-medium rounded-lg p-6 bg-[#75A11B] hover:bg-[#7F4EE1]`}>Donate</Button>
+            <button className={`${acme.className} text-2xl font-medium rounded-lg px-4 py-2 bg-[#75A11B] hover:bg-[#7F4EE1]`}>Donate</button>
           </Link>
         </nav>
       </div>
