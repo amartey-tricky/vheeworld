@@ -27,8 +27,8 @@ const Links = [
     href: "contact",
   },
   {
-    name: "Programs",
-    href: "/programs",
+    name: "Projects",
+    href: "/projects",
   },
 ];
 
@@ -45,7 +45,7 @@ export default function Header() {
         <Logo />
         <MenuLinks />
         <Donate />
-        <Button onClick={handleMenu} variant="ghost">
+        <Button onClick={handleMenu} variant="ghost" className="xl:hidden">
           <span className="sr-only">Open menu</span>
           {menuOpen ? (
             <X size={30} className="font-semibold ease duration-200" />
