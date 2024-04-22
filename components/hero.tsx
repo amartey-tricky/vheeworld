@@ -19,7 +19,7 @@ export default function Hero() {
           <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
             Give hope and a brighter future to children in need. Donate today!
           </p>
-          <div className="flex flex-row gap-4 md:gap-8">
+          <div className="flex flex-row gap-4 md:gap-8 mx-auto">
             <Donate />
             <Link
               href="#"
