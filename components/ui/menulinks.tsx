@@ -10,8 +10,12 @@ const Links = [
     href: "/about",
   },
   {
+    name: "Blog",
+    href: "/blog",
+  },
+  {
     name: "Ways To Give",
-    href: "/ways-to-give",
+    href: "/give",
   },
   {
     name: "Contact",

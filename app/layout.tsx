@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { roboto } from "@/components/ui/fonts";
 import "./globals.css";
 import Header from "@/components/header"
+import Footer from "@/components/footer"
 
 export const metadata: Metadata = {
   title: "Vhee's World",
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body className={`${roboto.className}`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -19,8 +19,12 @@ const Links = [
     href: "/about",
   },
   {
+    name: "Blog",
+    href: "/blog",
+  },
+  {
     name: "Ways To Give",
-    href: "/ways-to-give",
+    href: "/give",
   },
   {
     name: "Contact",
@@ -40,11 +44,11 @@ export default function Header() {
   };
 
   return (
-    <header className="rounded-md px-8 py-2 fixed top-0 backdrop-blur-xl w-full md:px-16">
+    <header className="rounded-md px-8 py-2 top-0 backdrop-blur-xl w-full md:px-16">
       <div className="w-full flex items-center justify-between">
         <Logo />
         <MenuLinks />
-        <Donate />
+        <div className="hidden xl:flex px-2"><Donate /></div>
         <Button onClick={handleMenu} variant="ghost" className="xl:hidden">
           <span className="sr-only">Open menu</span>
           {menuOpen ? (

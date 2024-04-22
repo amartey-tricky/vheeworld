@@ -3,7 +3,7 @@ import "@/app/globals.css";
 
 export function Donate() {
   return (
-    <Link href="/donate" className="hidden xl:flex px-2">
+    <Link href="/donate">
       <button className="button">
         Donate
         <div className="icon">

@@ -11,6 +11,7 @@ export function Logo() {
           width={70}
           height={70}
           priority
+          className="h-auto w-auto"
         />
         <p className="font-semibold text-xl md:text-3xl p-2">
           <span className={`${cormorant.className} text-[#491BA2] font-bold text-2xl md:text-4xl`}>VHEE </span>
