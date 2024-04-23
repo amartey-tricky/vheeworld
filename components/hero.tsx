@@ -30,7 +30,7 @@ export default function Hero() {
             </Link>
           </div>
         </div>
-        <div className="hidden lg:flex lg:col-span-5 lg:mt-0">
+        <div className="lg:flex lg:col-span-5 lg:mt-0">
           <CldImage
             src="https://res.cloudinary.com/dbgxgfsbl/image/upload/v1713716136/VHEEWORLD%20-%20WEBSITE/IMG_5537_oc1ooq.jpg"
             alt="Vhee world charity donation"
