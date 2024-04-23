@@ -73,8 +73,11 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
+    aspectRatio: {
+      "hero": "1.5",
+    }
   },
-  plugins: [require("tailwindcss-animate"), require("@tailwindcss/forms")],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/forms"), require("@tailwindcss/aspect-ratio")],
 } satisfies Config;
 
 export default config;

@@ -10,6 +10,7 @@ export function Logo() {
           alt="vhee world logo"
           width={70}
           height={70}
+          priority={false}
           loading="lazy"
           className="h-auto w-auto"
         />

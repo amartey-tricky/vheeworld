@@ -1,5 +1,6 @@
 import { permanent_marker } from "./ui/fonts";
 import { Donate } from "./ui/donate";
+import CldImage from "./ui/cldimage";
 import Link from "next/link";
 
 export default function Hero() {
@@ -28,6 +29,17 @@ export default function Hero() {
               Learn More
             </Link>
           </div>
+        </div>
+        <div className="hidden lg:flex lg:col-span-5 lg:mt-0">
+          <CldImage
+            src="https://res.cloudinary.com/dbgxgfsbl/image/upload/v1713716136/VHEEWORLD%20-%20WEBSITE/IMG_5537_oc1ooq.jpg"
+            alt="Vhee world charity donation"
+            width={5472}
+            height={3648}
+            priority={false}
+            loading="lazy"
+            className="rounded-lg shadow-lg self-center aspect-hero"
+          />
         </div>
       </div>
     </section>
