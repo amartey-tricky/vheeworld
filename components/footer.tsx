@@ -40,7 +40,7 @@ export default function Footer() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className="hover:underline transition-all ease-in-out duration-300"
+                  className="uppercase hover:underline transition-all ease-in-out duration-300"
                 >
                   {link.name}
                 </Link>

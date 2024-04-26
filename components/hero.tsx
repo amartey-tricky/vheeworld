@@ -14,8 +14,7 @@ export default function Hero() {
             Empowering Street Children
           </h1>
           <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
-            Our mission is to provide shelter, education, and opportunities for
-            street children to thrive and build a better future.
+          Our mission is To help minimize streetism and address mental health challenges. Through community engagement,donations and advocacy. 
           </p>
           <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
             Give hope and a brighter future to children in need. Donate today!
@@ -23,7 +22,7 @@ export default function Hero() {
           <div className="flex flex-row gap-4 md:gap-8 mx-auto">
             <Donate />
             <Link
-              href="#"
+              href="/about"
               className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100"
             >
               Learn More
@@ -32,7 +31,7 @@ export default function Hero() {
         </div>
         <div className="lg:flex lg:col-span-5 lg:mt-0">
           <CldImage
-            src="https://res.cloudinary.com/dbgxgfsbl/image/upload/v1713716136/VHEEWORLD%20-%20WEBSITE/IMG_5537_oc1ooq.jpg"
+            src="https://res.cloudinary.com/dbgxgfsbl/image/upload/v1713716223/VHEEWORLD%20-%20WEBSITE/Vheeworld/IMG_5001_pqt8xo.jpg"
             alt="Vhee world charity donation"
             width={5472}
             height={3648}

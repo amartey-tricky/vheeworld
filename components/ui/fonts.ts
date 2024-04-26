@@ -3,7 +3,8 @@ import {
   Dancing_Script,
   Cormorant,
   Acme,
-  Permanent_Marker
+  Permanent_Marker,
+  Lugrasimo,
 } from "next/font/google";
 
 export const roboto = Roboto({
@@ -29,4 +30,9 @@ export const acme = Acme({
 export const permanent_marker = Permanent_Marker({
   weight: ["400"],
   subsets: ["latin"],
-})
+});
+
+export const lugrasimo = Lugrasimo({
+  weight: ["400"],
+  subsets: ["latin-ext"],
+});
