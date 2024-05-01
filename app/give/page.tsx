@@ -32,7 +32,7 @@ export default function Page() {
             <CardFooter>
               <Link
                 href="/donate"
-                className="underline text-blue-400 hover:text-blue-700 pt-6"
+                className="underline text-blue-400 hover:text-blue-700"
               >
                 Click here to donate
               </Link>
