@@ -2,14 +2,14 @@
 
 ## TODO
 
-- [ ] Finish Header section
-- [ ] Add Hero section
+- [x] Finish Header section
+- [x] Add Hero section
 - [ ] Add two other sections
-- [ ] Add Footer
+- [x] Add Footer
 - [ ] Style the home page
 - [ ] Create About Page
-- [ ] Create contact page
-- [ ] Create Donation page
+- [x] Create contact page
+- [x] Create Donation page
 - [ ] Hubtel integration
 - [ ] create events gallery
 
