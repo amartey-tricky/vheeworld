@@ -79,7 +79,7 @@ export default function Page() {
           </Card>
         </article>
         <article>
-          <Card>
+          <Card className="h-[292px]">
             <CardHeader>
               <CardTitle><HeartHandshake /></CardTitle>
               <CardDescription>Donating in Kind</CardDescription>
@@ -87,6 +87,9 @@ export default function Page() {
             <CardContent>
               <p className="text-justify">We embark on annual projects and your donations facilitate the projects.</p>
             </CardContent>
+            <CardFooter>
+              <p className="text-justify">If you have any donations just call us or email us</p>
+            </CardFooter>
           </Card>
         </article>
       </section>
