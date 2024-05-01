@@ -12,9 +12,9 @@ import {
 export default function Page() {
   return (
     <main className="p-8 mx-auto max-w-screen-lg">
-      <section className="grid grid-col-1 gap-4 md:grid-cols-2 md:grid-rows-2">
+      <section className="grid grid-col-1 gap-4 md:grid-cols-2 md:grid-rows-2 md:gap-8">
         <article>
-          <Card className="md:h-[270px]">
+          <Card className="md:h-[316px]">
             <CardHeader>
               <CardTitle>
                 <CreditCard />
@@ -49,8 +49,7 @@ export default function Page() {
             </CardHeader>
             <CardContent>
               <p className="text-justify">
-                You can donate by directly transferring money from your account
-                into our accounts.
+              Your generosity can make significant impact on the lives that are in need. Kindly make a contribution via bank transfer to the foundations account and be a part of change.
               </p>
             </CardContent>
             <CardFooter>
@@ -68,7 +67,7 @@ export default function Page() {
               <CardDescription>Donate by Cheque</CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="text-justify">You can donate by writing a cheque addressed to the foundation and contacting us to pick it up and sending it to us.</p>
+              <p className="text-justify">To make a contribution via cheques, contact the foundation on <Link href="mailto:vheeworld@gmail.com" className="underline text-blue-400 hover:text-blue-700">vheeworld@gmail.com</Link> and <Link href="tel:+233209334967" className="underline text-blue-400 hover:text-blue-700">+233 20 933 4967</Link> for further assistance. </p>
             </CardContent>
             <CardFooter>
             <span>
@@ -85,7 +84,7 @@ export default function Page() {
               <CardDescription>Donating in Kind</CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="text-justify">We embark on annual projects and your donations facilitate the projects.</p>
+              <p className="text-justify">To make a contribution in kind contact the foundation on <Link href="mailto:vheeworld@gmail.com" className="underline text-blue-400 hover:text-blue-700">vheeworld@gmail.com</Link> and <Link href="tel:+233209334967" className="underline text-blue-400 hover:text-blue-700">+233 20 933 4967</Link> for further assistance.</p>
             </CardContent>
             <CardFooter>
               <p className="text-justify">If you have any donations just call us or email us</p>
