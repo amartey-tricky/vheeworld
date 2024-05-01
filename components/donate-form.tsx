@@ -17,6 +17,7 @@ export default function DonateForm() {
             className="mt-2 w-full rounded-lg bg-gray-50 border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 p-2.5"
             placeholder="First Name"
             autoFocus
+            autoComplete="true"
           />
         </div>
         {/* last name input field */}
@@ -30,6 +31,8 @@ export default function DonateForm() {
             name="lastName"
             className="mt-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5"
             placeholder="Last Name"
+            required
+            autoComplete="true"
           />
         </div>
         {/* email input field */}
@@ -46,6 +49,7 @@ export default function DonateForm() {
             className="mt-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5"
             placeholder="name@email.com"
             required
+            autoComplete="true"
           />
         </div>
         {/* phone number input field */}
@@ -63,6 +67,8 @@ export default function DonateForm() {
             minLength={10}
             maxLength={13}
             size={13}
+            required
+            autoComplete="true"
             placeholder="+233 12 345 6789"
             className="mt-2 w-full bg-gray-50 rounded-lg text-sm border-gray-300 text-gray-900 p-2.5 focus:ring-blue-500 focus:border-blue-500"
           />
@@ -78,6 +84,7 @@ export default function DonateForm() {
             name="amount"
             className="mt-2 w-full bg-gray-50 rounded-lg text-sm border-gray-300 text-gray-900 p-2.5 focus:ring-blue-500 focus:border-blue-500"
             required
+            autoComplete="true"
           />
         </div>
         {/* payment button */}

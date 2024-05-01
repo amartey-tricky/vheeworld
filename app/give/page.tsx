@@ -1,4 +1,5 @@
-import { CreditCard } from "lucide-react";
+import Link from "next/link";
+import { CreditCard, TicketCheck, TicketMinus, HeartHandshake } from "lucide-react";
 import {
   Card,
   CardHeader,
@@ -10,29 +11,83 @@ import {
 
 export default function Page() {
   return (
-    <main className="flex flex-col items-center max-w-lg mx-auto p-8 gap-4 md:p-16 md:gap-8">
-      <section className="">
+    <main className="p-8 mx-auto max-w-screen-lg">
+      <section className="grid grid-col-1 gap-4 md:grid-cols-2 md:grid-rows-2">
         <article>
-          <Card>
+          <Card className="md:h-[270px]">
             <CardHeader>
               <CardTitle>
                 <CreditCard />
               </CardTitle>
-              <CardDescription>Donate Securely using Mobile money or Bank Card</CardDescription>
+              <CardDescription>
+                Donate Securely using Mobile money or Bank Card
+              </CardDescription>
             </CardHeader>
             <CardContent>
-              <p>You can donate directly on this website using Mobile Money from any network or using your Bank Card</p>
+              <p className="text-justify">
+                You can donate directly on this website using Mobile Money from
+                any network or using your Bank Card
+              </p>
             </CardContent>
+            <CardFooter>
+              <Link
+                href="/donate"
+                className="underline text-blue-400 hover:text-blue-700 pt-6"
+              >
+                Click here to donate
+              </Link>
+            </CardFooter>
           </Card>
         </article>
-        <article className="rounded-xl max-w-screen-md mt-4 border">
-          <div className="flex flex-row gap-8 p-8 md:flex-col items-center">
-            <CreditCard />
-            <h1 className="text-center text-slate-600">Donate Securely using Mobile money or Bank Card</h1>
-          </div>
-          <div className="p-6">
-            <p>You can donate directly on this website using Mobile Money from any network or using your Bank Card</p>
-          </div>
+        <article>
+          <Card>
+            <CardHeader>
+              <CardTitle>
+                <TicketCheck />
+              </CardTitle>
+              <CardDescription>Donate by Bank Transfer</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <p className="text-justify">
+                You can donate by directly transferring money from your account
+                into our accounts.
+              </p>
+            </CardContent>
+            <CardFooter>
+              <span>
+                VheeWorld Foundation<br/>Acc no : 1441002243983<br/>Ecobank spintex
+                branch
+              </span>
+            </CardFooter>
+          </Card>
+        </article>
+        <article>
+          <Card>
+            <CardHeader>
+              <CardTitle><TicketMinus /></CardTitle>
+              <CardDescription>Donate by Cheque</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <p className="text-justify">You can donate by writing a cheque addressed to the foundation and contacting us to pick it up and sending it to us.</p>
+            </CardContent>
+            <CardFooter>
+            <span>
+                VheeWorld Foundation<br/>Acc no : 1441002243983<br/>Ecobank spintex
+                branch
+              </span>
+            </CardFooter>
+          </Card>
+        </article>
+        <article>
+          <Card>
+            <CardHeader>
+              <CardTitle><HeartHandshake /></CardTitle>
+              <CardDescription>Donating in Kind</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <p className="text-justify">We embark on annual projects and your donations facilitate the projects.</p>
+            </CardContent>
+          </Card>
         </article>
       </section>
     </main>
