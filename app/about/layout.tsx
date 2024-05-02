@@ -13,7 +13,9 @@ export default function Layout({
   return (
     <html lang="en">
       <body>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
