@@ -114,7 +114,7 @@ export default function Page() {
         <article className="grid grid-cols-1 gap-4 justify-items-center text-justify md:grid-cols-2 md:gap-8">
           <div>
             <CldImage
-              src="VHEEWORLD - WEBSITE/IMG_5537_oc1ooq"
+              src="VHEEWORLD - WEBSITE/IMG_5537_dky8om"
               width={5472}
               height={3648}
               className="rounded-lg"
