@@ -4,47 +4,47 @@ const Members = [
   {
     name: "Violet Lawson",
     role: "President",
-    src: "vhee-members/VIOLET_LAWSON_soemmq",
+    src: "vhee-members/Violet_m1r2aj",
   },
   {
     name: "Sarah Hammond",
     role: "Secretary",
-    src: "vhee-members/SARAH_chmhcy",
+    src: "vhee-members/Sarah_cuuxon",
   },
   {
     name: "Grace Mawusi Agordzo",
     role: "PRO",
-    src: "vhee-members/Mawusi_ym9gbp",
+    src: "vhee-members/Mawusi_cprtvl",
   },
   {
     name: "Emmanuelle Dodoo",
     role: "Finance Officer",
-    src: "vhee-members/EMMANUELLA_meuzt0",
+    src: "vhee-members/Emmanuella_egibfq",
   },
   {
     name: "Stephan Adjei",
     role: "Transport and Logistics Officer",
-    src: "vhee-members/STEPHAN_uirzc0",
+    src: "vhee-members/STEPHAN_cusv9p",
   },
   {
     name: "Sylvester Adotey",
     role: "Marketing Manager",
-    src: "vhee-members/SYLVESTER_fg7s8b",
+    src: "vhee-members/Sylvester_vbqtzd",
   },
   {
     name: "Harriet Awuah",
     role: "Assistant Marketing Manager",
-    src: "vhee-members/HARRIET_zmsavt",
+    src: "vhee-members/Harriet_shzcar",
   },
   {
     name: "Portia Ayikwei",
     role: "Research Manager",
-    src: "vhee-members/Mawusi_ym9gbp",
+    src: "vhee-members/Portia_o9me3v",
   },
   {
     name: "Joseph Darko",
     role: "Socail Media Manager",
-    src: "vhee-members/JOSEPH_gfguyg",
+    src: "vhee-members/Joseph_tk0p48",
   },
 ];
 
@@ -149,9 +149,9 @@ export default function Page() {
               <div key={member.name} className="p-4 md:p-8 text-center">
                 <CldImage
                   src={member.src}
-                  width={200}
-                  height={200}
-                  className="rounded-full w-[250px] h-[250px]"
+                  width={300}
+                  height={300}
+                  className="rounded-full w-[200px] h-[200px]"
                 />
                 <p className="pt-4 font-medium text-xl">{member.name}</p>
                 <p className="text-sm text-slate-400">{member.role}</p>
