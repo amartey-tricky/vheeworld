@@ -151,6 +151,7 @@ export default function Page() {
                   src={member.src}
                   width={300}
                   height={300}
+                  priority="false"
                   className="rounded-full w-[200px] h-[200px]"
                 />
                 <p className="pt-4 font-medium text-xl">{member.name}</p>
