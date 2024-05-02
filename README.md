@@ -7,7 +7,7 @@
 - [ ] Add two other sections
 - [x] Add Footer
 - [ ] Style the home page
-- [ ] Create About Page
+- [x] Create About Page
 - [x] Create contact page
 - [x] Create Donation page
 - [x] Create Ways to Give page
