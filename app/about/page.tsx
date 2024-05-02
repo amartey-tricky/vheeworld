@@ -43,7 +43,7 @@ const Members = [
   },
   {
     name: "Joseph Darko",
-    role: "Socail Media Manager",
+    role: "Social Media Manager",
     src: "vhee-members/Joseph_tk0p48",
   },
 ];

@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} max-w-screen-xl`}>
+      <body className={`${roboto.className} max-w-screen-xl mx-auto`}>
         <Header />
         {children}
         <Footer />
