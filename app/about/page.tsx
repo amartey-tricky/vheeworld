@@ -30,16 +30,16 @@ export default function Page() {
               better future for themselves.
             </p>
             <CldImage
-            src="VHEEWORLD - WEBSITE/vheeworld/IMG_5428_ymhqgz"
-            alt="VheeWorld undertaking a project"
-            width={603}
-            height={450}
-            priority="false"
-            className="rounded-lg"
+              src="VHEEWORLD - WEBSITE/vheeworld/IMG_5428_ymhqgz"
+              alt="VheeWorld undertaking a project"
+              width={603}
+              height={450}
+              priority="false"
+              className="rounded-lg"
             />
           </div>
           <div>
-            <p>
+            <p className="pb-10 pt-4 md:pt-0">
               At the core of the foundation&apos;s mission is the belief in the
               transformative power of education. By providing educational
               opportunities to children in underserved communities, the
@@ -61,6 +61,42 @@ export default function Page() {
             </p>
           </div>
         </article>
+      </section>
+      <section>
+        <article className="grid grid-cols-1 gap-4 justify-items-center text-justify md:grid-cols-2 md:gap-8">
+          <div>
+            <CldImage
+            src="VHEEWORLD - WEBSITE/IMG_5537_oc1ooq"
+            width={5472}
+            height={3648}
+            className="rounded-lg"
+             />
+          </div>
+          <div>
+            <h2 className="text-2xl md:text-4xl capitalize font-bold p-6 md:p-10">who we are</h2>
+            <p className="pb-6 pt-4 md:pt-0 md:pb-10">
+              The Vheeworld foundation is a registered NGO founded by Miss
+              Violet Lawson at the age of 19. The foundation was set up to help
+              the less privileged in society, especially individuals who find
+              themselves in the streets, thus coining the term “streetism” in
+              their motto “streetism should not be an option”. Vheeworld is made
+              up of 10 members who take up various roles within the
+              organization.
+            </p>
+            <p>
+              The Vheeworld foundation is a registered NGO founded by Miss
+              Violet Lawson at the age of 19. The foundation was set up to help
+              the less privileged in society, especially individuals who find
+              themselves in the streets, thus coining the term “streetism” in
+              their motto “streetism should not be an option”. Vheeworld is made
+              up of 10 members who take up various roles within the
+              organization.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section>
+        <h2 className="text-center capitalize font-bold text-3xl md:text-6xl p-6 md:p-8 mt-8">meet the team</h2>
       </section>
     </main>
   );
