@@ -1,10 +1,5 @@
 import CldImage from "@/components/ui/cldimage";
-import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "About VheeWorld",
-  description: "Learn more about VheeWorld Foundation and our mission"
-}
 
 export default function Page() {
   return (
