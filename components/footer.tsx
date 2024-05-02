@@ -53,9 +53,9 @@ export default function Footer() {
           <span className="block text-sm sm:text-center">
             © 2024{" "}
             <Link href="/" className="hover:underline">
-              Vhee World™
+              Vhee World
             </Link>
-            . All Rights Reserved.
+            ™. All Rights Reserved.
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <Link

@@ -10,6 +10,7 @@
 - [ ] Create About Page
 - [x] Create contact page
 - [x] Create Donation page
+- [x] Create Ways to Give page
 - [ ] Hubtel integration
 - [ ] create events gallery
 
