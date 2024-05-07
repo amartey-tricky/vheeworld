@@ -11,6 +11,7 @@
 - [x] Create contact page
 - [x] Create Donation page
 - [x] Create Ways to Give page
+- [ ] Create blog page
 - [ ] Hubtel integration
 - [ ] create events gallery
 
