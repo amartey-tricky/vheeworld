@@ -15,7 +15,7 @@ export default function Page() {
       <section className="container py-8 md:py-12 font-medium flex flex-col-reverse gap-8 md:gap-16">
         <article>
           <Link
-            href="/blog/All-You-Need-To-Know-About-Vhee-World-Foundation"
+            href="https://successafrica.info/all-you-need-to-know-about-vhee-world-foundation/"
             className="relative block overflow-hidden rounded-lg border border-gray-100 p-4 sm:p-6 lg:p-8"
           >
             <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
@@ -67,7 +67,7 @@ export default function Page() {
         </article>
         <article>
           <Link
-            href="#"
+            href="https://www.sheenmagazine.com/vheeworld-foundation-the-strive-to-overcome-streetism/"
             className="relative block overflow-hidden rounded-lg border border-gray-100 p-4 sm:p-6 lg:p-8"
           >
             <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-red-300 via-yellow-300 to-emerald-400"></span>
