@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <main className="flex flex-col md:px-16">
-      <section>
+      <section className="px-8">
         <h1
           className={`${cormorant.className} py-8 font-bold text-4xl md:text-6xl uppercase`}
         >
