@@ -35,8 +35,8 @@ export default function Page() {
                 <CldImage
                   src="VHEEWORLD - WEBSITE/IMG_5446_lkhdgg"
                   alt=""
-                  width={40}
-                  height={40}
+                  width={80}
+                  height={80}
                   className="size-16 rounded-lg object-cover shadow-sm"
                 />
               </div>
@@ -84,7 +84,7 @@ export default function Page() {
               </div>
 
               <div className="hidden sm:block sm:shrink-0">
-                <CldImage alt="" src="VHEEWORLD - WEBSITE/Vheeworld/IMG_5379_xpheqm" width={40} height={40} className="size-16 rounded-lg object-cover shadow-sm" />
+                <CldImage alt="" src="VHEEWORLD - WEBSITE/Vheeworld/IMG_5379_xpheqm" width={80} height={80} className="size-16 rounded-lg object-cover shadow-sm" />
               </div>
             </div>
 
