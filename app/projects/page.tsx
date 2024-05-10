@@ -4,13 +4,13 @@ import CldImage from "@/components/ui/cldimage";
 const Details = [
   {
     name: "I Win - Accra Mall Food Court",
-    href: "",
+    href: "projects/i-win",
     src: "projects/IMG_7693_skgtcz",
     location: "Accra Mall",
   },
   {
     name: "I Win - Pantang Hospital",
-    href: "",
+    href: "projects/i-win",
     src: "projects/IMG_7692_beeglx",
     location: "Pantang Hospital",
   },
@@ -28,19 +28,19 @@ const Details = [
   },
   {
     name: "Fill a Belly",
-    href: "",
+    href: "/projects/central",
     src: "projects/VWF_-_collab_sz9b6i",
     location: "Madina Zongo Junction"
   },
   {
     name: "Hand From The Heart",
-    href: "",
+    href: "/projects/chorkor",
     src: "projects/VWF_-_3_utpunz",
     location: "Accra Central"
   },
   {
     name: "The Kofi Project",
-    href: "",
+    href: "/projects/kofi-project",
     src: "projects/VWF_-_3_utpunz",
     location: "Dzorwulu"
   }
